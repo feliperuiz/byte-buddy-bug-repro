@@ -1,0 +1,4 @@
+rootProject.name = 'bug-repro'
+include 'm1'
+include 'm2'
+

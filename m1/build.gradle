@@ -1,0 +1,15 @@
+import net.bytebuddy.build.ToStringPlugin
+
+plugins {
+    id 'java'
+    id 'net.bytebuddy.byte-buddy-gradle-plugin' version '1.11.0'
+}
+
+group 'org.example'
+version '1.0.0'
+
+byteBuddy {
+    transformation {
+        plugin = ToStringPlugin
+    }
+}
